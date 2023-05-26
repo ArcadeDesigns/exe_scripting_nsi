@@ -15,7 +15,7 @@ class TelegramCrawler:
 
     def init(self, selected_pair):
         # Create a Telegram client
-        self.client = TelegramClient('session_name', api_id='28136536', api_hash='f0b27aea82af77aed15596e9eb939cce')
+        self.client = TelegramClient('session_name', api_id='###########', api_hash='#####################################')
 
         # Connect to Telegram servers
         try:
@@ -31,7 +31,7 @@ class TelegramCrawler:
 
     async def get_messages(self, selected_pair):
         message_found = False
-        messages = await self.client.get_messages('https://t.me/ebire_fx_forex_trading', limit=10)
+        messages = await self.client.get_messages('#####################################', limit=10)
         try:
             self.telegram_data = []
             for message in messages:

@@ -167,10 +167,10 @@ class ApplicationScreen(QDialog):
         self.lockDownInfo.hide()
         try:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             
             cur = conn.cursor()
@@ -311,10 +311,10 @@ class LoginScreen(QDialog):
 
         try:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             cur = conn.cursor()
             query = "SELECT password FROM users WHERE username = %s"
@@ -434,11 +434,11 @@ class SignupScreen(QDialog):
 
             else:
                 conn = psycopg2.connect(
-                    host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                    database="fx_signal_spot_forex_database",
-                    user="fx_signal_spot_forex_database_user",
-                    password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
-                )
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
+            )
                 cur = conn.cursor()
                 password = hashlib.sha256(password.encode()).hexdigest()
                 Users = (username, password, name, email)
@@ -538,11 +538,11 @@ class MainScreen(QDialog):
         self.syntheticTradeBtn.clicked.connect(self.gotosyntheticScreen)
 
         conn = psycopg2.connect(
-            host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-            database="fx_signal_spot_forex_database",
-            user="fx_signal_spot_forex_database_user",
-            password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
-        )
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
+            )
         cur = conn.cursor()
         cur.execute("SELECT content FROM Notifications ORDER BY id DESC LIMIT 1")
         notifying = cur.fetchone()
@@ -721,10 +721,10 @@ class TradeScreen(QDialog):
     def startAds(self):
         if self.youtube_view is None:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             cur = conn.cursor()
             cur.execute("SELECT youtube FROM Links ORDER BY id DESC LIMIT 1")
@@ -754,10 +754,10 @@ class TradeScreen(QDialog):
             self.youtube_view.loadFinished.connect(play_video)
         else:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             cur = conn.cursor()
             cur.execute("SELECT youtube FROM Links ORDER BY id DESC LIMIT 1")
@@ -1119,10 +1119,10 @@ class SyntheticScreen(QDialog):
         self.youtubeContainer.setEnabled(False)
         if self.youtube_view is None:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             cur = conn.cursor()
             cur.execute("SELECT youtube FROM Links ORDER BY id DESC LIMIT 1")
@@ -1152,10 +1152,10 @@ class SyntheticScreen(QDialog):
             self.youtube_view.loadFinished.connect(play_video)
         else:
             conn = psycopg2.connect(
-                host="dpg-ch6j1fg2qv26p18mdph0-a.oregon-postgres.render.com",
-                database="fx_signal_spot_forex_database",
-                user="fx_signal_spot_forex_database_user",
-                password="OtnJCQXdTOUYvHFGylOa6TGGsNsypluI",
+                host="#########################################",
+                database="#########################################",
+                user="#########################################",
+                password="#########################################",
             )
             cur = conn.cursor()
             cur.execute("SELECT youtube FROM Links ORDER BY id DESC LIMIT 1")
