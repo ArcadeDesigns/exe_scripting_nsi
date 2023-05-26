@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>700</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#menuContainer {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(9, 18, 50, 255));
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="accountFormImage">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#accountFormImage {
+	background-image: url(:/images/pexels-tima-miroshnichenko-7567443.jpg);
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="accountFormOpacity">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>600</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#accountFormOpacity {
+	background-color: rgba(0, 0, 0, 0.7);
+}</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                <widget class="QFrame" name="accountForm">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#accountForm {
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 10px;
+	border-radius: 6px;
+}</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_9">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>9</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>9</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignTop">
+                   <widget class="QFrame" name="frame_10">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_10">
+                     <item>
+                      <widget class="QLabel" name="label_9">
+                       <property name="styleSheet">
+                        <string notr="true">QLabel{
+	font: 75 40px;
+	color: #ffffff;
+	padding-top: 12px;
+	padding-left: 6px;
+	padding-right: 6px;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>Sign Up to FX Signal Spot</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_15">
+                       <property name="styleSheet">
+                        <string notr="true">QLabel{
+	font: 11px;
+	color: #ffffff;
+	padding-top: 12px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 20px;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>Please enter your login credentials to access your account.</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="nameBox" native="true">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">#nameBox{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	padding-left: 5px;
+	color: #ffffff;
+	font: 12px;
+	margin: 2px 0;
+	border-radius: 10px;
+}
+
+#nameBox:hover{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+}
+
+QLineEdit{
+	background-color: transparent;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	color: #ffffff;
+	font: 12px;
+	border: none;
+	width: 240px;
+}
+
+QLineEdit:hover{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
+QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	padding: 0 5px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLabel {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_14">
+                        <item>
+                         <widget class="QLabel" name="label_19">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap>:/icons/icons8_contact_details_32.png</pixmap>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="namerfield">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Type in your Full Name</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="message_2">
+                       <property name="styleSheet">
+                        <string notr="true">QLabel{
+	font: 11px;
+	color: #ffffff;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_11">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout">
+                     <item row="1" column="0">
+                      <widget class="QWidget" name="emailBox" native="true">
+                       <property name="styleSheet">
+                        <string notr="true">#emailBox{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	padding-left: 5px;
+	color: #ffffff;
+	font: 12px;
+	margin: 2px 0;
+	border-radius: 10px;
+}
+
+#emailBox:hover{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+}
+
+QLineEdit{
+	background-color: transparent;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	color: #ffffff;
+	font: 12px;
+	border: none;
+	width: 240px;
+}
+
+QLineEdit:hover{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
+QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	padding: 0 5px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLabel {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_15">
+                        <item>
+                         <widget class="QLabel" name="label_20">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap>:/icons/icons8_Email_32.png</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>false</bool>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="emailfield_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Type in your Email Address</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QFrame" name="usernameBox">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">#usernameBox{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	padding-left: 5px;
+	color: #ffffff;
+	font: 12px;
+	margin: 2px 0;
+	border-radius: 10px;
+}
+
+#usernameBox:hover{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+}
+
+QLineEdit{
+	background-color: transparent;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	color: #ffffff;
+	font: 12px;
+	border: none;
+	width: 240px;
+}
+
+QLineEdit:hover{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
+QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	padding: 0 5px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLabel {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_7">
+                        <item>
+                         <widget class="QLabel" name="label_10">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap>:/icons/icons8_administrator_male_32.png</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>false</bool>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="usernamerfield">
+                          <property name="enabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Type in your User Name</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item row="4" column="0">
+                      <widget class="QFrame" name="userPasswordBox">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">#userPasswordBox{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	padding-left: 5px;
+	color: #ffffff;
+	font: 12px;
+	margin: 2px 0;
+	border-radius: 10px;
+}
+
+#userPasswordBox:hover{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+}
+
+QLineEdit{
+	background-color: transparent;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	color: #ffffff;
+	font: 12px;
+	border: none;
+	width: 240px;
+}
+
+QLineEdit:hover{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
+QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	padding: 0 5px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLabel {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_8">
+                        <item>
+                         <widget class="QLabel" name="label_11">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap>:/icons/icons8_password_32.png</pixmap>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="passwordfield_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Type in your Password</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item row="4" column="1">
+                      <widget class="QWidget" name="confirmPasswrdBox" native="true">
+                       <property name="styleSheet">
+                        <string notr="true">
+#confirmPasswrdBox{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	padding-left: 5px;
+	color: #ffffff;
+	font: 12px;
+	margin: 2px 0;
+	border-radius: 10px;
+}
+
+#confirmPasswrdBox:hover{
+	background: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+	border: 1px solid qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));;
+}
+
+QLineEdit{
+	background-color: transparent;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	color: #ffffff;
+	font: 12px;
+	border: none;
+	width: 240px;
+}
+
+QLineEdit:hover{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
+QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(120, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	padding: 0 5px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLabel {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_12">
+                        <item>
+                         <widget class="QLabel" name="label_14">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap>:/icons/icons8_good_pincode_32.png</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>false</bool>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="confirmpassword">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Confirm your Password</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_13">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_12">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+                      <widget class="QFrame" name="frame_12">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_9">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QPushButton" name="signUpBtnSubmit">
+                          <property name="minimumSize">
+                           <size>
+                            <width>300</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>300</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton{
+		background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	font: 12px;
+	padding: 8px;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	border: 10px;
+	border-radius: 4px;
+}
+
+QPushButton:hover{
+	border-radius: 4px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 245), stop:1 rgba(255, 255, 255, 255));
+}</string>
+                          </property>
+                          <property name="text">
+                           <string>Sign Up </string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignLeft|Qt::AlignBottom">
+                      <widget class="QFrame" name="spacingSection">
+                       <property name="styleSheet">
+                        <string notr="true">#spacingSection {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_11">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item alignment="Qt::AlignLeft">
+                         <widget class="QLabel" name="label_13">
+                          <property name="styleSheet">
+                           <string notr="true">QLabel{
+	font: 11px;
+	color: #ffffff;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}</string>
+                          </property>
+                          <property name="text">
+                           <string>Already own an account with FX Signal Spot?</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item alignment="Qt::AlignLeft">
+                         <widget class="QPushButton" name="goToLogInPage">
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton{
+		background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 255), stop:1 rgba(255, 255, 255, 255));
+	color: #ffffff;
+	font: 11px;
+	padding: 6px;
+	text-align: center;
+	border: 10px;
+	border-radius: 4px;
+}
+
+QPushButton:hover{
+	border-radius: 4px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(140, 0, 72, 245), stop:1 rgba(255, 255, 255, 255));
+}</string>
+                          </property>
+                          <property name="text">
+                           <string>Login Instead</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignBottom">
+                      <widget class="QFrame" name="frame_15">
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton {
+	background-color: transparent;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_10">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>9</number>
+                        </property>
+                        <item alignment="Qt::AlignHCenter">
+                         <widget class="QPushButton" name="facebookBtn">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>:/socialIcons/icons8_facebook_48.png</normaloff>:/socialIcons/icons8_facebook_48.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>30</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item alignment="Qt::AlignHCenter">
+                         <widget class="QPushButton" name="twitterBtn">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>:/socialIcons/icons8_Twitter_Squared_48.png</normaloff>:/socialIcons/icons8_Twitter_Squared_48.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>30</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item alignment="Qt::AlignHCenter">
+                         <widget class="QPushButton" name="instagramBtn">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>:/socialIcons/icons8_instagram_48.png</normaloff>:/socialIcons/icons8_instagram_48.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>30</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item alignment="Qt::AlignHCenter">
+                         <widget class="QPushButton" name="gmailBtn">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>:/socialIcons/icons8_gmail_48.png</normaloff>:/socialIcons/icons8_gmail_48.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>30</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources/resources.qrc"/>
+  <include location="../resources/resources.qrc"/>
+  <include location="../resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
